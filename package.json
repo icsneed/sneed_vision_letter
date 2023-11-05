@@ -1,0 +1,15 @@
+{
+  "name": "sneed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "build": "npm run build -ws"
+  },
+  "author": "Mr Sneed",
+  "license": "ISC",
+  "workspaces": [
+    "./dapp/",
+    "./letter/"
+  ]
+}
